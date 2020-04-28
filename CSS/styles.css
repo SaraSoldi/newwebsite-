@@ -1,0 +1,146 @@
+body {
+  background-color: #ffb99a;
+  text-align: center;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+hr {
+  border: dotted #ff6464 10px;
+  border-bottom: none;
+  width: 7%;
+  margin: 100px auto;
+}
+
+/*16px=100%=1rem usare con il font-size*/
+h1 {
+  color: #ffb99a;
+  font-size: 5.625rem;
+  font-family: 'Dancing Script', cursive;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #ff6464;
+  margin-bottom: 20px;
+  font-weight: normal;
+  font-size: 2.5rem;
+  font-family: 'Lato', sans-serif;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  margin: 10px 20px;
+  font-family: 'Lato', sans-serif;
+  color: #ffb99a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.profilepicture {
+  width: 250px;
+  height: 250px;
+}
+
+.topcontainer {
+  position: relative;
+  padding-top: 100px;
+  background-color: #db3056;
+}
+
+.middlecontainer {
+  margin: 100px 0;
+}
+
+.bottomcontainer {
+  padding: 50px 0 20px;
+  background-color: #db3056;
+}
+
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottomcloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.skill-row {
+  margin: 6.25rem auto;
+  width: 50%;
+  text-align: left;
+}
+
+/*.pchillies {
+  clear: right;
+}
+per far apparire solo il paragrafo sotto l'immagine*/
+/*usa float solo per mettere un testo al lato di un'immagine e non per riposizionare altre cose*/
+.chillies {
+  width: 25%;
+  float: right;
+  margin-left: 1.86rem;
+}
+
+.computer {
+  width: 25%;
+  float: left;
+  margin-right: 1.86rem;
+}
+
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
+.contactmessage {
+  margin: 40px auto;
+  width: 30%;
+}
+
+.myButton {
+  box-shadow: inset 0 1px 0 0 #f7c5c0;
+  background: linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+  background-color: #fc8d83;
+  border-radius: 6px;
+  border: 1px solid #ff7f94;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #b23e35;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+  background-color: #e4685d;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
